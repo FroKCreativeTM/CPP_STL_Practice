@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
     <Filter Include="Header Files">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
@@ -13,31 +9,55 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Deque">
+      <UniqueIdentifier>{e4dbbf43-1b49-4a78-a23a-275163275711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vector">
+      <UniqueIdentifier>{f709ba6b-4683-474e-bc6e-065ed1d6f6f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="list">
+      <UniqueIdentifier>{e11abb80-f1ab-4588-b01e-0cdf69c6aeed}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="push_back_and_push_front.cpp">
+      <Filter>Deque</Filter>
+    </ClCompile>
+    <ClCompile Include="deque_iter.cpp">
+      <Filter>Deque</Filter>
+    </ClCompile>
+    <ClCompile Include="vector_and_deque.cpp">
+      <Filter>Deque</Filter>
+    </ClCompile>
     <ClCompile Include="const_and_iterator.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="vector_push.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="reverse_iterator.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Insert_vector.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="insert_vector2.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>vector</Filter>
     </ClCompile>
     <ClCompile Include="erase_vector.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>vector</Filter>
+    </ClCompile>
+    <ClCompile Include="Insert_vector.cpp">
+      <Filter>vector</Filter>
+    </ClCompile>
+    <ClCompile Include="insert_vector2.cpp">
+      <Filter>vector</Filter>
+    </ClCompile>
+    <ClCompile Include="reverse_iterator.cpp">
+      <Filter>vector</Filter>
     </ClCompile>
     <ClCompile Include="vector_assign.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>vector</Filter>
     </ClCompile>
     <ClCompile Include="vector_compare.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>vector</Filter>
+    </ClCompile>
+    <ClCompile Include="vector_push.cpp">
+      <Filter>vector</Filter>
+    </ClCompile>
+    <ClCompile Include="deque_insert.cpp">
+      <Filter>Deque</Filter>
+    </ClCompile>
+    <ClCompile Include="list_push_front_and_push_back.cpp">
+      <Filter>list</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
