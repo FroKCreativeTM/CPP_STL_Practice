@@ -59,5 +59,11 @@
     <ClCompile Include="list_push_front_and_push_back.cpp">
       <Filter>list</Filter>
     </ClCompile>
+    <ClCompile Include="list_insert_and_erase.cpp">
+      <Filter>list</Filter>
+    </ClCompile>
+    <ClCompile Include="insert_vector_and_list.cpp">
+      <Filter>list</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
