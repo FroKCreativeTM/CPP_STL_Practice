@@ -65,5 +65,38 @@
     <ClCompile Include="insert_vector_and_list.cpp">
       <Filter>list</Filter>
     </ClCompile>
+    <ClCompile Include="list_remove.cpp">
+      <Filter>list</Filter>
+    </ClCompile>
+    <ClCompile Include="list_remove_if.cpp">
+      <Filter>list</Filter>
+    </ClCompile>
+    <ClCompile Include="list_splice.cpp">
+      <Filter>list</Filter>
+    </ClCompile>
+    <ClCompile Include="list_splice_2.cpp">
+      <Filter>list</Filter>
+    </ClCompile>
+    <ClCompile Include="list_reverse.cpp">
+      <Filter>list</Filter>
+    </ClCompile>
+    <ClCompile Include="list_unique.cpp">
+      <Filter>list</Filter>
+    </ClCompile>
+    <ClCompile Include="list_unique_with_func.cpp">
+      <Filter>list</Filter>
+    </ClCompile>
+    <ClCompile Include="list_sort.cpp">
+      <Filter>list</Filter>
+    </ClCompile>
+    <ClCompile Include="list_sort2.cpp">
+      <Filter>list</Filter>
+    </ClCompile>
+    <ClCompile Include="list_merge.cpp">
+      <Filter>list</Filter>
+    </ClCompile>
+    <ClCompile Include="list_merge2.cpp">
+      <Filter>list</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
