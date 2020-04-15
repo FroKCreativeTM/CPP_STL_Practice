@@ -20,83 +20,83 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="push_back_and_push_front.cpp">
+    <ClCompile Include="list\list_insert_and_erase.cpp">
+      <Filter>list</Filter>
+    </ClCompile>
+    <ClCompile Include="list\list_merge.cpp">
+      <Filter>list</Filter>
+    </ClCompile>
+    <ClCompile Include="list\list_merge2.cpp">
+      <Filter>list</Filter>
+    </ClCompile>
+    <ClCompile Include="list\list_push_front_and_push_back.cpp">
+      <Filter>list</Filter>
+    </ClCompile>
+    <ClCompile Include="list\list_remove.cpp">
+      <Filter>list</Filter>
+    </ClCompile>
+    <ClCompile Include="list\list_remove_if.cpp">
+      <Filter>list</Filter>
+    </ClCompile>
+    <ClCompile Include="list\list_reverse.cpp">
+      <Filter>list</Filter>
+    </ClCompile>
+    <ClCompile Include="list\list_sort.cpp">
+      <Filter>list</Filter>
+    </ClCompile>
+    <ClCompile Include="list\list_sort2.cpp">
+      <Filter>list</Filter>
+    </ClCompile>
+    <ClCompile Include="list\list_splice.cpp">
+      <Filter>list</Filter>
+    </ClCompile>
+    <ClCompile Include="list\list_splice_2.cpp">
+      <Filter>list</Filter>
+    </ClCompile>
+    <ClCompile Include="list\list_unique.cpp">
+      <Filter>list</Filter>
+    </ClCompile>
+    <ClCompile Include="list\list_unique_with_func.cpp">
+      <Filter>list</Filter>
+    </ClCompile>
+    <ClCompile Include="list\insert_vector_and_list.cpp">
+      <Filter>list</Filter>
+    </ClCompile>
+    <ClCompile Include="deque\deque_iter.cpp">
       <Filter>Deque</Filter>
     </ClCompile>
-    <ClCompile Include="deque_iter.cpp">
+    <ClCompile Include="deque\push_back_and_push_front.cpp">
       <Filter>Deque</Filter>
     </ClCompile>
-    <ClCompile Include="vector_and_deque.cpp">
+    <ClCompile Include="deque\reverse_iterator.cpp">
       <Filter>Deque</Filter>
     </ClCompile>
-    <ClCompile Include="const_and_iterator.cpp">
-      <Filter>vector</Filter>
-    </ClCompile>
-    <ClCompile Include="erase_vector.cpp">
-      <Filter>vector</Filter>
-    </ClCompile>
-    <ClCompile Include="Insert_vector.cpp">
-      <Filter>vector</Filter>
-    </ClCompile>
-    <ClCompile Include="insert_vector2.cpp">
-      <Filter>vector</Filter>
-    </ClCompile>
-    <ClCompile Include="reverse_iterator.cpp">
-      <Filter>vector</Filter>
-    </ClCompile>
-    <ClCompile Include="vector_assign.cpp">
-      <Filter>vector</Filter>
-    </ClCompile>
-    <ClCompile Include="vector_compare.cpp">
-      <Filter>vector</Filter>
-    </ClCompile>
-    <ClCompile Include="vector_push.cpp">
-      <Filter>vector</Filter>
-    </ClCompile>
-    <ClCompile Include="deque_insert.cpp">
+    <ClCompile Include="deque\vector_and_deque.cpp">
       <Filter>Deque</Filter>
     </ClCompile>
-    <ClCompile Include="list_push_front_and_push_back.cpp">
-      <Filter>list</Filter>
+    <ClCompile Include="deque\deque_insert.cpp">
+      <Filter>Deque</Filter>
     </ClCompile>
-    <ClCompile Include="list_insert_and_erase.cpp">
-      <Filter>list</Filter>
+    <ClCompile Include="vector\insert_vector2.cpp">
+      <Filter>vector</Filter>
     </ClCompile>
-    <ClCompile Include="insert_vector_and_list.cpp">
-      <Filter>list</Filter>
+    <ClCompile Include="vector\vector_assign.cpp">
+      <Filter>vector</Filter>
     </ClCompile>
-    <ClCompile Include="list_remove.cpp">
-      <Filter>list</Filter>
+    <ClCompile Include="vector\vector_compare.cpp">
+      <Filter>vector</Filter>
     </ClCompile>
-    <ClCompile Include="list_remove_if.cpp">
-      <Filter>list</Filter>
+    <ClCompile Include="vector\vector_push.cpp">
+      <Filter>vector</Filter>
     </ClCompile>
-    <ClCompile Include="list_splice.cpp">
-      <Filter>list</Filter>
+    <ClCompile Include="vector\const_and_iterator.cpp">
+      <Filter>vector</Filter>
     </ClCompile>
-    <ClCompile Include="list_splice_2.cpp">
-      <Filter>list</Filter>
+    <ClCompile Include="vector\erase_vector.cpp">
+      <Filter>vector</Filter>
     </ClCompile>
-    <ClCompile Include="list_reverse.cpp">
-      <Filter>list</Filter>
-    </ClCompile>
-    <ClCompile Include="list_unique.cpp">
-      <Filter>list</Filter>
-    </ClCompile>
-    <ClCompile Include="list_unique_with_func.cpp">
-      <Filter>list</Filter>
-    </ClCompile>
-    <ClCompile Include="list_sort.cpp">
-      <Filter>list</Filter>
-    </ClCompile>
-    <ClCompile Include="list_sort2.cpp">
-      <Filter>list</Filter>
-    </ClCompile>
-    <ClCompile Include="list_merge.cpp">
-      <Filter>list</Filter>
-    </ClCompile>
-    <ClCompile Include="list_merge2.cpp">
-      <Filter>list</Filter>
+    <ClCompile Include="vector\Insert_vector.cpp">
+      <Filter>vector</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

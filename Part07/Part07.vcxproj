@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -18,38 +18,10 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="deque\deque_insert.cpp" />
-    <ClCompile Include="deque\deque_iter.cpp" />
-    <ClCompile Include="deque\push_back_and_push_front.cpp" />
-    <ClCompile Include="deque\reverse_iterator.cpp" />
-    <ClCompile Include="deque\vector_and_deque.cpp" />
-    <ClCompile Include="list\insert_vector_and_list.cpp" />
-    <ClCompile Include="list\list_insert_and_erase.cpp" />
-    <ClCompile Include="list\list_merge.cpp" />
-    <ClCompile Include="list\list_merge2.cpp" />
-    <ClCompile Include="list\list_push_front_and_push_back.cpp" />
-    <ClCompile Include="list\list_remove.cpp" />
-    <ClCompile Include="list\list_remove_if.cpp" />
-    <ClCompile Include="list\list_reverse.cpp" />
-    <ClCompile Include="list\list_sort.cpp" />
-    <ClCompile Include="list\list_sort2.cpp" />
-    <ClCompile Include="list\list_splice.cpp" />
-    <ClCompile Include="list\list_splice_2.cpp" />
-    <ClCompile Include="list\list_unique.cpp" />
-    <ClCompile Include="list\list_unique_with_func.cpp" />
-    <ClCompile Include="vector\const_and_iterator.cpp" />
-    <ClCompile Include="vector\erase_vector.cpp" />
-    <ClCompile Include="vector\Insert_vector.cpp" />
-    <ClCompile Include="vector\insert_vector2.cpp" />
-    <ClCompile Include="vector\vector_assign.cpp" />
-    <ClCompile Include="vector\vector_compare.cpp" />
-    <ClCompile Include="vector\vector_push.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{E6051096-3168-41D2-BC02-F8204AE7A233}</ProjectGuid>
-    <RootNamespace>Part06</RootNamespace>
+    <ProjectGuid>{95367624-5321-43AA-B7A8-ADD17D62341E}</ProjectGuid>
+    <RootNamespace>Part07</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -165,6 +137,15 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="readme.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="set_insert.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="set_insert_return.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
