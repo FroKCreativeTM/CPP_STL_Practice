@@ -15,5 +15,29 @@
     <ClCompile Include="set_insert_return.cpp">
       <Filter>set</Filter>
     </ClCompile>
+    <ClCompile Include="set_insert_overload.cpp">
+      <Filter>set</Filter>
+    </ClCompile>
+    <ClCompile Include="set_greater.cpp">
+      <Filter>set</Filter>
+    </ClCompile>
+    <ClCompile Include="set_key_comp_and_value_comp.cpp">
+      <Filter>set</Filter>
+    </ClCompile>
+    <ClCompile Include="set_count.cpp">
+      <Filter>set</Filter>
+    </ClCompile>
+    <ClCompile Include="set_find.cpp">
+      <Filter>set</Filter>
+    </ClCompile>
+    <ClCompile Include="set_comp.cpp">
+      <Filter>set</Filter>
+    </ClCompile>
+    <ClCompile Include="set_bound.cpp">
+      <Filter>set</Filter>
+    </ClCompile>
+    <ClCompile Include="set_equal.cpp">
+      <Filter>set</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
