@@ -4,6 +4,9 @@
     <Filter Include="set">
       <UniqueIdentifier>{8d335e90-a4c3-493e-a4dd-ceb936035634}</UniqueIdentifier>
     </Filter>
+    <Filter Include="multiset">
+      <UniqueIdentifier>{52972836-f847-485e-928b-a4a5c686b5ab}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="readme.md" />
@@ -38,6 +41,15 @@
     </ClCompile>
     <ClCompile Include="set_equal.cpp">
       <Filter>set</Filter>
+    </ClCompile>
+    <ClCompile Include="multiset_insert.cpp">
+      <Filter>multiset</Filter>
+    </ClCompile>
+    <ClCompile Include="multiset_find.cpp">
+      <Filter>multiset</Filter>
+    </ClCompile>
+    <ClCompile Include="multiset_equal_range.cpp">
+      <Filter>multiset</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
