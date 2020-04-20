@@ -7,6 +7,12 @@
     <Filter Include="multiset">
       <UniqueIdentifier>{52972836-f847-485e-928b-a4a5c686b5ab}</UniqueIdentifier>
     </Filter>
+    <Filter Include="map">
+      <UniqueIdentifier>{4fa61179-d8c3-4c16-81c9-b8194c88bcfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="multimap">
+      <UniqueIdentifier>{b58c86ec-99a6-42ed-be9e-55af568ead0a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="readme.md" />
@@ -50,6 +56,27 @@
     </ClCompile>
     <ClCompile Include="multiset_equal_range.cpp">
       <Filter>multiset</Filter>
+    </ClCompile>
+    <ClCompile Include="map_insert.cpp">
+      <Filter>map</Filter>
+    </ClCompile>
+    <ClCompile Include="map_insert_return.cpp">
+      <Filter>map</Filter>
+    </ClCompile>
+    <ClCompile Include="map_operator[].cpp">
+      <Filter>map</Filter>
+    </ClCompile>
+    <ClCompile Include="map_greater.cpp">
+      <Filter>map</Filter>
+    </ClCompile>
+    <ClCompile Include="map_find.cpp">
+      <Filter>map</Filter>
+    </ClCompile>
+    <ClCompile Include="multimap_count_and_find.cpp">
+      <Filter>multimap</Filter>
+    </ClCompile>
+    <ClCompile Include="multimap_bound.cpp">
+      <Filter>multimap</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
