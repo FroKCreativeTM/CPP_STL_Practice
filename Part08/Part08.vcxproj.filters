@@ -4,6 +4,9 @@
     <Filter Include="nonmodifying_algorithm">
       <UniqueIdentifier>{824b98c5-6d21-4eb1-ab8b-677e87f852dd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="modifying_algorithm">
+      <UniqueIdentifier>{8f9c53cd-fcc5-4ada-9c27-06d8130448b2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="adjacent_find.cpp">
@@ -19,6 +22,36 @@
       <Filter>nonmodifying_algorithm</Filter>
     </ClCompile>
     <ClCompile Include="count_if.cpp">
+      <Filter>nonmodifying_algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="equal.cpp">
+      <Filter>nonmodifying_algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="find.cpp">
+      <Filter>nonmodifying_algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="find_end.cpp">
+      <Filter>nonmodifying_algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="find_first_of.cpp">
+      <Filter>nonmodifying_algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="for_each.cpp">
+      <Filter>nonmodifying_algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="lexicographical_compare.cpp">
+      <Filter>nonmodifying_algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="max_min.cpp">
+      <Filter>nonmodifying_algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="max_min_element.cpp">
+      <Filter>nonmodifying_algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="mismatch.cpp">
+      <Filter>nonmodifying_algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="search_and_search_n.cpp">
       <Filter>nonmodifying_algorithm</Filter>
     </ClCompile>
   </ItemGroup>
