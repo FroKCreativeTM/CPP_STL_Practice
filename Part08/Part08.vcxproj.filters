@@ -54,5 +54,8 @@
     <ClCompile Include="search_and_search_n.cpp">
       <Filter>nonmodifying_algorithm</Filter>
     </ClCompile>
+    <ClCompile Include="copy.cpp">
+      <Filter>modifying_algorithm</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
