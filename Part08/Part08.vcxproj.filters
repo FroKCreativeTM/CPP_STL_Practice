@@ -57,5 +57,26 @@
     <ClCompile Include="copy.cpp">
       <Filter>modifying_algorithm</Filter>
     </ClCompile>
+    <ClCompile Include="fill.cpp">
+      <Filter>modifying_algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="for_each_modify.cpp">
+      <Filter>modifying_algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="generate.cpp">
+      <Filter>modifying_algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="swap.cpp">
+      <Filter>modifying_algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="merge.cpp">
+      <Filter>modifying_algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="replace.cpp">
+      <Filter>modifying_algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="replace_copy.cpp">
+      <Filter>modifying_algorithm</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
