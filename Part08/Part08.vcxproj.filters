@@ -78,5 +78,12 @@
     <ClCompile Include="replace_copy.cpp">
       <Filter>modifying_algorithm</Filter>
     </ClCompile>
+    <ClCompile Include="swap_range.cpp">
+      <Filter>modifying_algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="transform.cpp">
+      <Filter>modifying_algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="transform_with_calcul.cpp" />
   </ItemGroup>
 </Project>
