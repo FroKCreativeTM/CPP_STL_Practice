@@ -7,6 +7,9 @@
     <Filter Include="modifying_algorithm">
       <UniqueIdentifier>{8f9c53cd-fcc5-4ada-9c27-06d8130448b2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="removing_algorithm">
+      <UniqueIdentifier>{7287c6e8-4ef6-4595-b091-55983401ffa4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="adjacent_find.cpp">
@@ -84,6 +87,11 @@
     <ClCompile Include="transform.cpp">
       <Filter>modifying_algorithm</Filter>
     </ClCompile>
-    <ClCompile Include="transform_with_calcul.cpp" />
+    <ClCompile Include="transform_with_calcul.cpp">
+      <Filter>modifying_algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="remove_algorithm.cpp">
+      <Filter>removing_algorithm</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
