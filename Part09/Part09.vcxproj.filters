@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="general_functor">
+      <UniqueIdentifier>{a673d5fd-9e86-48f9-a244-f4fa98097cd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function_adaptor">
+      <UniqueIdentifier>{0e209370-3a6c-4f56-a8d9-c21318ddafaf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="three_predicate.cpp">
+      <Filter>general_functor</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
