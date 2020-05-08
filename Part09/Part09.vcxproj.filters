@@ -12,5 +12,14 @@
     <ClCompile Include="three_predicate.cpp">
       <Filter>general_functor</Filter>
     </ClCompile>
+    <ClCompile Include="transform_plus.cpp">
+      <Filter>general_functor</Filter>
+    </ClCompile>
+    <ClCompile Include="transform_with_adapter.cpp">
+      <Filter>general_functor</Filter>
+    </ClCompile>
+    <ClCompile Include="transform_type.cpp">
+      <Filter>general_functor</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
