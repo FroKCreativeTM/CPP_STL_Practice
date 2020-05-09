@@ -7,6 +7,9 @@
     <Filter Include="function_adaptor">
       <UniqueIdentifier>{0e209370-3a6c-4f56-a8d9-c21318ddafaf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ALU_Function_Object">
+      <UniqueIdentifier>{94b14d41-2c4b-43d3-8751-013494d905c9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="three_predicate.cpp">
@@ -20,6 +23,9 @@
     </ClCompile>
     <ClCompile Include="transform_type.cpp">
       <Filter>general_functor</Filter>
+    </ClCompile>
+    <ClCompile Include="ALU_Function_Object.cpp">
+      <Filter>ALU_Function_Object</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
