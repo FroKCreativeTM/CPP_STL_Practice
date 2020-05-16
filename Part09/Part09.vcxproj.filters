@@ -10,6 +10,12 @@
     <Filter Include="ALU_Function_Object">
       <UniqueIdentifier>{94b14d41-2c4b-43d3-8751-013494d905c9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="operator_compare_predicator">
+      <UniqueIdentifier>{181d0698-ab86-4c10-8644-04b4b736a687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="binder">
+      <UniqueIdentifier>{7f93e24a-e831-43e1-8154-625c5c97068f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="three_predicate.cpp">
@@ -26,6 +32,12 @@
     </ClCompile>
     <ClCompile Include="ALU_Function_Object.cpp">
       <Filter>ALU_Function_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="less_compare.cpp">
+      <Filter>operator_compare_predicator</Filter>
+    </ClCompile>
+    <ClCompile Include="bind1st.cpp">
+      <Filter>binder</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
