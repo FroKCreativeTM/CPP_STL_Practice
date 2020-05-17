@@ -1,17 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="inserter">
+      <UniqueIdentifier>{1f4b09f4-2b5d-4263-bc3c-1a84d28a2592}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    <Filter Include="iostream_iterator">
+      <UniqueIdentifier>{7756ab30-969c-46a2-be51-25e89a70890a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="inserter.cpp">
+      <Filter>inserter</Filter>
+    </ClCompile>
+    <ClCompile Include="back_and_front_inserter.cpp">
+      <Filter>inserter</Filter>
+    </ClCompile>
+    <ClCompile Include="ostream_iterator.cpp">
+      <Filter>iostream_iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="istream_iterator.cpp">
+      <Filter>iostream_iterator</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
